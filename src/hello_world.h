@@ -1,1 +1,1 @@
-void hello_world(int argc, char **argv);
+void hello_world();
