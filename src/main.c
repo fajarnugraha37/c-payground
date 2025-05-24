@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h> // Untuk free()
 #include <cjson/CJSON.h> // Header untuk library cJSON
+#include "hello_world.h"
 
 int main(int argc, char** argv) {
+    hello_world(argc, argv);
     printf("Halo dari C dengan cJSON!\n\n");
 
     cJSON *root = NULL;

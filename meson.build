@@ -15,9 +15,10 @@ dependencies = [
   dependency('libcjson'), ## cjson
 ]
 
+subdir('src')
 executable(
   'cplayground',
-  'src/main.c',
+  sources: sources,
   # win_subsystem: 'windows',
   dependencies : dependencies,
   install : true,
