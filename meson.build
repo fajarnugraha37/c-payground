@@ -30,4 +30,4 @@ executable(
 # rm -r build 
 # meson setup build
 # meson compile -C build
-# build\testproject.exe
+# build\cplayground.exe
