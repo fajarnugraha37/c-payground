@@ -13,6 +13,7 @@ dependencies = [
   # dependency('sdl2'),
   # dependency('sdl2main'),
   dependency('libcjson'), ## cjson
+  dependency('munit', fallback: ['munit', 'munit_dep']),
 ]
 
 subdir('src')
