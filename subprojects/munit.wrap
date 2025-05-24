@@ -1,4 +1,5 @@
 [wrap-git]
 directory=munit
-url=https://github.com/nemequ/munit/
-revision=head
+url=https://github.com/nemequ/munit.git
+revision=fbbdf1467eb0d04a6ee465def2e529e4c87f2118
+depth=1
